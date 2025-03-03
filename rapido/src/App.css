@@ -1,0 +1,115 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+/* Header styling */
+.header {
+  background-color: #28a745;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Bike Card styling */
+.bike-card {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.bike-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.bike-details {
+  padding: 15px;
+}
+
+.bike-details h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bike-details p {
+  font-size: 18px;
+}
+
+.book-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Bike List styling */
+.bike-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Booking styling */
+.booking {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.booking h2 {
+  color: #28a745;
+}
+
+.cancel-booking {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
